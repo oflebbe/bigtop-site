@@ -7,3 +7,48 @@ theme = "ananke"
     custom_css = ["css/mine.css"]
     background_color_class = "bg-dark-red"
     featured_image = "/images/bigtop-logo3.png"
+
+[menu]
+
+[[menu.main]]
+  name = "Documentation"
+  identifier = "documentation"
+  weight = 2
+
+
+[[menu.main]]
+    weight = 40
+    identifier = "asf"
+    name = "The ASF"
+    has_children = true
+
+
+[[menu.main]]
+    weight = 1
+    parent = "asf"
+    name = "How Apache Works"
+    identifier = "conduct"
+    url = "http://www.apache.org/foundation/how-it-works.html"
+
+[[menu.main]]
+    weight = 2
+    parent = "asf"
+    name = "Foundation"
+    identifier = "foundation"
+    url = "http://www.apache.org/foundation/"
+
+[[menu.main]]
+    weight = 3
+    parent = "asf"
+    name = "Sponsoring Apache"
+    identifier = "sponsoring"
+    url = "http://www.apache.org/foundation/sponsorship.html"
+
+[[menu.main]]
+    weight = 4
+    parent = "asf"
+    name = "Thanks"
+    identifier = "thanks"
+    url = "http://www.apache.org/foundation/thanks.html"
+
+  
